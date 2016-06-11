@@ -1,0 +1,446 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3C15BC7A1CCECF27006ACFDB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C15BC791CCECF27006ACFDB /* main.m */; };
+		3C15BC7D1CCECF27006ACFDB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C15BC7C1CCECF27006ACFDB /* AppDelegate.m */; };
+		3C15BC801CCECF27006ACFDB /* GameScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C15BC7F1CCECF27006ACFDB /* GameScene.m */; };
+		3C15BC821CCECF27006ACFDB /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 3C15BC811CCECF27006ACFDB /* GameScene.sks */; };
+		3C15BC851CCECF27006ACFDB /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C15BC841CCECF27006ACFDB /* GameViewController.m */; };
+		3C15BC881CCECF27006ACFDB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C15BC861CCECF27006ACFDB /* Main.storyboard */; };
+		3C15BC8A1CCECF27006ACFDB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C15BC891CCECF27006ACFDB /* Assets.xcassets */; };
+		3C15BC8D1CCECF27006ACFDB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C15BC8B1CCECF27006ACFDB /* LaunchScreen.storyboard */; };
+		3C15BC981CCECF28006ACFDB /* SKRepeatShaderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C15BC971CCECF28006ACFDB /* SKRepeatShaderTests.m */; };
+		3C15BCA41CCED23D006ACFDB /* shader_opengl.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 3C15BCA21CCED23D006ACFDB /* shader_opengl.fsh */; };
+		3C15BCA51CCED23D006ACFDB /* tile.png in Resources */ = {isa = PBXBuildFile; fileRef = 3C15BCA31CCED23D006ACFDB /* tile.png */; };
+		3C15BCA91CCF1116006ACFDB /* shader_metal.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 3C15BCA81CCF1116006ACFDB /* shader_metal.fsh */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3C15BC941CCECF28006ACFDB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3C15BC6D1CCECF27006ACFDB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3C15BC741CCECF27006ACFDB;
+			remoteInfo = SKRepeatShader;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3C15BC751CCECF27006ACFDB /* SKRepeatShader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SKRepeatShader.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C15BC791CCECF27006ACFDB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3C15BC7B1CCECF27006ACFDB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3C15BC7C1CCECF27006ACFDB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3C15BC7E1CCECF27006ACFDB /* GameScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameScene.h; sourceTree = "<group>"; };
+		3C15BC7F1CCECF27006ACFDB /* GameScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameScene.m; sourceTree = "<group>"; };
+		3C15BC811CCECF27006ACFDB /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		3C15BC831CCECF27006ACFDB /* GameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
+		3C15BC841CCECF27006ACFDB /* GameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
+		3C15BC871CCECF27006ACFDB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3C15BC891CCECF27006ACFDB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3C15BC8C1CCECF27006ACFDB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3C15BC8E1CCECF27006ACFDB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C15BC931CCECF28006ACFDB /* SKRepeatShaderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SKRepeatShaderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C15BC971CCECF28006ACFDB /* SKRepeatShaderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SKRepeatShaderTests.m; sourceTree = "<group>"; };
+		3C15BC991CCECF28006ACFDB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C15BCA21CCED23D006ACFDB /* shader_opengl.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = shader_opengl.fsh; sourceTree = "<group>"; };
+		3C15BCA31CCED23D006ACFDB /* tile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tile.png; sourceTree = "<group>"; };
+		3C15BCA81CCF1116006ACFDB /* shader_metal.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = shader_metal.fsh; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3C15BC721CCECF27006ACFDB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C15BC901CCECF28006ACFDB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3C15BC6C1CCECF27006ACFDB = {
+			isa = PBXGroup;
+			children = (
+				3C15BC771CCECF27006ACFDB /* SKRepeatShader */,
+				3C15BC961CCECF28006ACFDB /* SKRepeatShaderTests */,
+				3C15BC761CCECF27006ACFDB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3C15BC761CCECF27006ACFDB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3C15BC751CCECF27006ACFDB /* SKRepeatShader.app */,
+				3C15BC931CCECF28006ACFDB /* SKRepeatShaderTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3C15BC771CCECF27006ACFDB /* SKRepeatShader */ = {
+			isa = PBXGroup;
+			children = (
+				3C15BC7B1CCECF27006ACFDB /* AppDelegate.h */,
+				3C15BC7C1CCECF27006ACFDB /* AppDelegate.m */,
+				3C15BC7E1CCECF27006ACFDB /* GameScene.h */,
+				3C15BC7F1CCECF27006ACFDB /* GameScene.m */,
+				3C15BCA21CCED23D006ACFDB /* shader_opengl.fsh */,
+				3C15BCA81CCF1116006ACFDB /* shader_metal.fsh */,
+				3C15BC811CCECF27006ACFDB /* GameScene.sks */,
+				3C15BC831CCECF27006ACFDB /* GameViewController.h */,
+				3C15BC841CCECF27006ACFDB /* GameViewController.m */,
+				3C15BC861CCECF27006ACFDB /* Main.storyboard */,
+				3C15BC891CCECF27006ACFDB /* Assets.xcassets */,
+				3C15BC8B1CCECF27006ACFDB /* LaunchScreen.storyboard */,
+				3C15BC8E1CCECF27006ACFDB /* Info.plist */,
+				3C15BC781CCECF27006ACFDB /* Supporting Files */,
+			);
+			path = SKRepeatShader;
+			sourceTree = "<group>";
+		};
+		3C15BC781CCECF27006ACFDB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3C15BCA31CCED23D006ACFDB /* tile.png */,
+				3C15BC791CCECF27006ACFDB /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3C15BC961CCECF28006ACFDB /* SKRepeatShaderTests */ = {
+			isa = PBXGroup;
+			children = (
+				3C15BC971CCECF28006ACFDB /* SKRepeatShaderTests.m */,
+				3C15BC991CCECF28006ACFDB /* Info.plist */,
+			);
+			path = SKRepeatShaderTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3C15BC741CCECF27006ACFDB /* SKRepeatShader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C15BC9C1CCECF28006ACFDB /* Build configuration list for PBXNativeTarget "SKRepeatShader" */;
+			buildPhases = (
+				3C15BC711CCECF27006ACFDB /* Sources */,
+				3C15BC721CCECF27006ACFDB /* Frameworks */,
+				3C15BC731CCECF27006ACFDB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SKRepeatShader;
+			productName = SKRepeatShader;
+			productReference = 3C15BC751CCECF27006ACFDB /* SKRepeatShader.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3C15BC921CCECF28006ACFDB /* SKRepeatShaderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C15BC9F1CCECF28006ACFDB /* Build configuration list for PBXNativeTarget "SKRepeatShaderTests" */;
+			buildPhases = (
+				3C15BC8F1CCECF28006ACFDB /* Sources */,
+				3C15BC901CCECF28006ACFDB /* Frameworks */,
+				3C15BC911CCECF28006ACFDB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3C15BC951CCECF28006ACFDB /* PBXTargetDependency */,
+			);
+			name = SKRepeatShaderTests;
+			productName = SKRepeatShaderTests;
+			productReference = 3C15BC931CCECF28006ACFDB /* SKRepeatShaderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3C15BC6D1CCECF27006ACFDB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = HelpURock;
+				TargetAttributes = {
+					3C15BC741CCECF27006ACFDB = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					3C15BC921CCECF28006ACFDB = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 3C15BC741CCECF27006ACFDB;
+					};
+				};
+			};
+			buildConfigurationList = 3C15BC701CCECF27006ACFDB /* Build configuration list for PBXProject "SKRepeatShader" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3C15BC6C1CCECF27006ACFDB;
+			productRefGroup = 3C15BC761CCECF27006ACFDB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3C15BC741CCECF27006ACFDB /* SKRepeatShader */,
+				3C15BC921CCECF28006ACFDB /* SKRepeatShaderTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3C15BC731CCECF27006ACFDB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C15BCA41CCED23D006ACFDB /* shader_opengl.fsh in Resources */,
+				3C15BC821CCECF27006ACFDB /* GameScene.sks in Resources */,
+				3C15BC8D1CCECF27006ACFDB /* LaunchScreen.storyboard in Resources */,
+				3C15BCA91CCF1116006ACFDB /* shader_metal.fsh in Resources */,
+				3C15BC8A1CCECF27006ACFDB /* Assets.xcassets in Resources */,
+				3C15BC881CCECF27006ACFDB /* Main.storyboard in Resources */,
+				3C15BCA51CCED23D006ACFDB /* tile.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C15BC911CCECF28006ACFDB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3C15BC711CCECF27006ACFDB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C15BC851CCECF27006ACFDB /* GameViewController.m in Sources */,
+				3C15BC7D1CCECF27006ACFDB /* AppDelegate.m in Sources */,
+				3C15BC801CCECF27006ACFDB /* GameScene.m in Sources */,
+				3C15BC7A1CCECF27006ACFDB /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C15BC8F1CCECF28006ACFDB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C15BC981CCECF28006ACFDB /* SKRepeatShaderTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3C15BC951CCECF28006ACFDB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3C15BC741CCECF27006ACFDB /* SKRepeatShader */;
+			targetProxy = 3C15BC941CCECF28006ACFDB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3C15BC861CCECF27006ACFDB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3C15BC871CCECF27006ACFDB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3C15BC8B1CCECF27006ACFDB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3C15BC8C1CCECF27006ACFDB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3C15BC9A1CCECF28006ACFDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3C15BC9B1CCECF28006ACFDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3C15BC9D1CCECF28006ACFDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SKRepeatShader/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.helpurock.SKRepeatShader;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3C15BC9E1CCECF28006ACFDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SKRepeatShader/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.helpurock.SKRepeatShader;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3C15BCA01CCECF28006ACFDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = SKRepeatShaderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.helpurock.SKRepeatShaderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SKRepeatShader.app/SKRepeatShader";
+			};
+			name = Debug;
+		};
+		3C15BCA11CCECF28006ACFDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SKRepeatShaderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.helpurock.SKRepeatShaderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SKRepeatShader.app/SKRepeatShader";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3C15BC701CCECF27006ACFDB /* Build configuration list for PBXProject "SKRepeatShader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C15BC9A1CCECF28006ACFDB /* Debug */,
+				3C15BC9B1CCECF28006ACFDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C15BC9C1CCECF28006ACFDB /* Build configuration list for PBXNativeTarget "SKRepeatShader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C15BC9D1CCECF28006ACFDB /* Debug */,
+				3C15BC9E1CCECF28006ACFDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C15BC9F1CCECF28006ACFDB /* Build configuration list for PBXNativeTarget "SKRepeatShaderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C15BCA01CCECF28006ACFDB /* Debug */,
+				3C15BCA11CCECF28006ACFDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3C15BC6D1CCECF27006ACFDB /* Project object */;
+}
